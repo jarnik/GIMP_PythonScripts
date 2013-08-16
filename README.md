@@ -16,10 +16,24 @@ Will work as expected under following circumstances:
 Will open a new image containing the spritesheet.
 The annotations are taken directly from the group / layer names.
 
-Screenshots
-===========
+### Screenshots
+
 - "layer_structure.png" - an example layer structure
-- "export_grouped_spritesheet.png" - plugin window
 - "fancy_annotated_spritesheet.png" - expected result
 
 It's a single-purpose script, tweak at your own will for other purposes
+
+Export Grouped Spritesheet
+==================================
+Python plugin script to export a uniform spritesheet.
+
+Will work as expected under following circumstances:
+- sprites have uniform size, each sprite in a separate layer
+- sprite layers scattered across the hierarchy of group layers (GIMP 2.8+)
+Will open a new image containing the spritesheet and optionally export a .png directly.
+
+### Screenshots
+
+- "layer_structure.png" - an example layer structure
+- "export_grouped_spritesheet.png" - plugin window
+- "exported_spritesheet.png" - expected result
