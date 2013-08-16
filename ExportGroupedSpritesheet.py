@@ -74,7 +74,7 @@ def export_grouped_spritesheet(image, drawable, export_all, export_layer, max_wi
   filename = "%s\\%s" % ( dir, filename )
   pdb.gimp_image_set_filename(image_out, filename)
   
-  if save
+  if save :
     pdb.file_png_save_defaults( image_out, merged, filename, filename )
   
   gprint( "Saved to %s " % ( filename ) )
