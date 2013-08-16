@@ -39,12 +39,14 @@ Will open a new image containing the spritesheet and optionally export a .png di
 
 ### Screenshots
 
-"layer_structure.png" - an example layer structure
+An example layer structure:
 
-![Expected layer structure](layer_structure.png "Expected layer structure") 
+![An example layer structure](layer_structure.png "An example layer structure") 
 
-"export_grouped_spritesheet.png" - plugin window
+Plugin window: 
 
-![Expected layer structure](layer_structure.png "Expected layer structure") 
+![Plugin window](export_grouped_spritesheet.png "Plugin window") 
 
-"exported_spritesheet.png" - expected result
+Expected result:
+
+![Expected result](exported_spritesheet.png "Expected result") 
