@@ -9,7 +9,7 @@ Export Fancy Annotated Spritesheet
 ==================================
 Python plugin script to create a fancy spritesheet preview.
 
-Will work as expected under following circumstances:
+Requirements:
 - sprites have uniform size, each sprite in a separate layer
 - there are multiple group layers (GIMP 2.8+) at the root
 - each group layer contains multiple sprites
@@ -18,8 +18,13 @@ The annotations are taken directly from the group / layer names.
 
 ### Screenshots
 
-- "layer_structure.png" - an example layer structure
-- "fancy_annotated_spritesheet.png" - expected result
+Expected layer structure:
+
+![Expected layer structure](layer_structure.png "Expected layer structure")
+
+Expected result:
+
+![Expected result](fancy_annotated_spritesheet.png "Expected result")
 
 It's a single-purpose script, tweak at your own will for other purposes
 
@@ -27,13 +32,19 @@ Export Grouped Spritesheet
 ==================================
 Python plugin script to export a uniform spritesheet.
 
-Will work as expected under following circumstances:
+Requirements:
 - sprites have uniform size, each sprite in a separate layer
 - sprite layers scattered across the hierarchy of group layers (GIMP 2.8+)
 Will open a new image containing the spritesheet and optionally export a .png directly.
 
 ### Screenshots
 
-- "layer_structure.png" - an example layer structure
-- "export_grouped_spritesheet.png" - plugin window
-- "exported_spritesheet.png" - expected result
+"layer_structure.png" - an example layer structure
+
+![Expected layer structure](layer_structure.png "Expected layer structure") 
+
+"export_grouped_spritesheet.png" - plugin window
+
+![Expected layer structure](layer_structure.png "Expected layer structure") 
+
+"exported_spritesheet.png" - expected result
